@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.computer.onlineshopping.AddProducts">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_pname"
+            android:hint="Enter product"
+            android:layout_marginTop="10dp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_pname"
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_price"
+            android:hint="Price"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_preview"
+            android:hint="Image"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/et_price"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_preview"
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_bigprice"
+            android:hint="Priceview" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_bigprice"
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_details"
+            android:hint="Details" />
+
+
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/et_details"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ib_save"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/sub"/>
+        <!--  <android:scaleType="centerInside"/>-->
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="#FFF"
+        android:id="@+id/btn"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
+

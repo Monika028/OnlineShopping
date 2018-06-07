@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.computer.onlineshopping.Shipping">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <ImageView
+            android:layout_width="1000dp"
+            android:layout_height="100dp"
+            android:id="@+id/ib_btn"
+            android:src="@mipmap/ship"/>
+
+
+        <TextView
+            android:layout_below="@id/ib_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title"
+            android:textStyle="normal"
+            android:textSize="15dp"
+
+    android:text="We strive to deliver products purchased from Online Shopping in excellent condition and in the fastest time possible. If this is your first order with Online Shopping, shipping will be completely FREE. Also, for all the subsequent purchases of Rs. 1199* or more, we will deliver the order to your doorstep free of cost. A shipping charge of Rs. 149 will be applicable to all orders under Rs. 1199.
+
+If the order is cancelled, lost or un-delivered to your preferred location, we will refund the complete order amount including any shipping charges, if paid online.
+If you return an order delivered to you, order shipping charges will not be refunded. However if you self-ship your returns. For accounts whose return behavior violate our fair usage policy, a delivery charge of Rs. 149 will be levied on all orders, irrespective of order value.Delivery charge varies with each Seller.
+Sellers incur relatively higher shipping costs on low value items. In such cases, charging a nominal delivery charge helps them offset logistics costs. Please check your order summary to understand the delivery charges for individual products.
+For Products listed as F-Assured a Rs 40 charge for delivery per item is applied if the order value is less than Rs 500. While, orders of Rs 500 or above are delivered free."
+            tools:ignore="HardcodedText" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

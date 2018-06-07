@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="90dp"
+            android:id="@+id/ib_btn"
+            android:src="@mipmap/copy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title"
+            android:layout_below="@id/ib_btn"
+            android:text="Online Shopping offers you multiple payment methods. Whatever your online mode of payment, you can rest assured that Flipkart's trusted payment gateway partners use secure encryption technology to keep your transaction details confidential at all times.
+You may use Internet Banking, Gift Card, Cash on Delivery and Wallet to make your purchase."
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            tools:ignore="HardcodedText"
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="4dp"
+            android:text="With Shopping credit card EMI option, you can choose
+ to pay in easy installments of 3, 6, 9, 12, 18, or 24 months, with credit cards from the following banks:
+ HDFC,
+ Citi,
+ ICICI,
+ Kotak,
+ Axis,
+ SBI,
+ Cash on Delivery option is not available for the items that cost above
+ Rs. 20,000. Adding to this, the pin code of customer’s delivery address
+ requires to be a part of the List of Cash on Delivery codes. The courier company reaches out the buyers to confirm the
+ delivery date as well as time. The Customer is asked to be available
+ to receive the items at the mentioned time of delivery along with the
+ amount in cash to pay for the purchased item."
+            android:textStyle="normal" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

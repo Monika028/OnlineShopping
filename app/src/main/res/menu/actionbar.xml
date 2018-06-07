@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/add"
+        android:icon="@mipmap/shop"
+        android:title="Add"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/edit"
+        android:icon="@mipmap/on"
+        android:title="More"
+        android:visible="true"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/delete"
+        android:icon="@mipmap/mm"
+        android:title="Delete"
+        android:visible="true"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/other"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Launcher"
+        android:visible="true"
+        app:showAsAction="ifRoom"/>
+
+</menu>
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.computer.onlineshopping.FreshPreview">
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="235dp"
+        android:layout_height="370dp"
+        android:id="@+id/nv_icon" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nv_icon"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="price"
+        android:textColor="#81D4FA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nv_icon"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Details"
+        android:layout_below="@id/tv_title"
+        android:textColor="#81D4FA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nv_icon"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Free Delivery"
+        android:layout_below="@id/tv1"
+        android:textColor="#81D4FA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_1"
+        android:textSize="25sp"
+        android:text="Buy Now"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/nv_icon"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_2"
+        android:textSize="25sp"
+        android:text="Add to Cart"
+        android:layout_marginBottom="2dp"
+        android:textColorHighlight="#81D4FA"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nv_icon"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_3"
+        android:textColor="#81D4FA"
+        android:background="#FFFFFF"
+        android:text="Shipping"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btn_1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_4"
+        android:textColor="#81D4FA"
+        android:background="#FFFFFF"
+        android:layout_toRightOf="@id/btn_3"
+        android:text="Contact Us"
+        android:textSize="17dp"
+        android:layout_marginLeft="22dp"
+        android:textStyle="bold"
+        android:layout_below="@id/btn_1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_5"
+        android:textColor="#81D4FA"
+        android:background="#FFFFFF"
+        android:layout_toRightOf="@id/btn_4"
+        android:text="Payment"
+        android:textSize="17dp"
+        android:layout_marginLeft="22dp"
+        android:textStyle="bold"
+        android:layout_below="@id/btn_1" />
+
+</RelativeLayout>
+
+

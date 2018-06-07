@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/tv_pname"
+        android:textStyle="bold|italic"
+        android:layout_toLeftOf="@id/iv_arrow"
+        android:text="Name of Product"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/iv_arrow"
+        android:layout_below="@+id/tv_pname"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="118dp"
+        android:text="City"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_price"
+        android:layout_marginTop="55dp"
+        android:text="Party"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_arrow"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/mm"/>
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/fresh"
+            android:icon="@mipmap/woman"
+            android:title="Fresh Collection" />
+        <item
+            android:id="@+id/wedding"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Wedding Special" />
+        <item
+            android:id="@+id/jewellery"
+            android:icon="@mipmap/jwwlry"
+            android:title="Jewellery" />
+        <item
+            android:id="@+id/beauty"
+            android:icon="@mipmap/spcl"
+            android:title="Beauty " />
+
+    </group>
+
+    <item android:title="     ------------------------------------">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
